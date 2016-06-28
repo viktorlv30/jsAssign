@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="dom1.js"></script>
+    <!--<script src="dom1.js"></script>-->
     <title>Title</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
     </ul>
 
     <h4>Window history</h4>
-    <lu>
+    <ul>
         <li>
             <b>back()</b> - преходить на попередню сторінку
         </li>
@@ -28,8 +28,33 @@
         <li>
             <b>go(delta)</b> - переходить на сторінку що знахиться в позиції дельта відносно нинішньої
         </li>
-    </lu>
+    </ul>
 
     <h4>Window document</h4>
+    <b>Методи document</b>
+    <ul>
+        <li>document.GetElementById('get-id')</li>
+        <li name="get-name">
+            document.getElementsByName('get-name');
+        </li>
+        <li>
+            document.getElementsByTagName('get-name');
+        </li>
+        <li class="get-class">
+            document.GetElementsByClassName('get-class');
+        </li>
+    </ul>
+    <b>Методи самих елементів</b>
+    <ul>
+        <li id="get-attribute" class="find-class">
+            getAttribute('class');
+        </li>
+        <li>
+
+        </li>
+        <li></li>
+        <li></li>
+    </ul>
+    <script src="dom1.js"></script>
 </body>
 </html>
