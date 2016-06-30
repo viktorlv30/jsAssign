@@ -12,3 +12,7 @@ console.log(document.getElementsByTagName('ul'));
 console.log(document.getElementsByClassName('get-class'));
 
 console.log(document.getElementById('get-attribute').getAttribute('class'));
+
+var clickLi = function () {
+    console.log(this);
+}
